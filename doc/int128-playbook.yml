@@ -5,12 +5,12 @@ content:
   sources:
     - url: ..
       start_path: doc
-      branches: HEAD
 output:
   dir: html
 ui:
   bundle:
     url: https://github.com/boostorg/website-v2-docs/releases/download/ui-develop/ui-bundle.zip
+  supplemental_files: ./supplemental-ui
   output_dir: int128/_
 antora:
   extensions:
